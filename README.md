@@ -12,13 +12,20 @@
 
 ## Параметры
 --package - анализируемый пакет (обязательно)
+
 --repository - URL репозитория APK
+
 --test-repo - файл тестового репозитория
+
 --max-depth - максимальная глубина анализа (по умолчанию: 10)
+
 --filter - фильтр пакетов по подстроке
+
 --ascii-tree - вывод дерева зависимостей
+
 --output - файл для сохранения визуализации
 
 ## Примеры использования
 python CLI.py --package A --test-repo test_repo.txt --ascii-tree
+
 python CLI.py --p A --t test_repo.txt --a --m 2
